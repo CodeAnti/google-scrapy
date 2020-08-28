@@ -185,6 +185,7 @@ class SearchDownloaderMiddleware(object):
     #     print("为%s添加代理%s" % (request.url, ret_proxy), end="")
     #     return None
 
+
 class RandomUserAgent(UserAgentMiddleware):
     def process_request(self, request, spider):
         ua = random.choice(user_agent_list)

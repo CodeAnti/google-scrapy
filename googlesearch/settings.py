@@ -111,3 +111,7 @@ DOWNLOADER_MIDDLEWARES = {
    'googlesearch.middlewares.SearchDownloaderMiddleware': 543,
    'googlesearch.middlewares.RandomUserAgent': 542,
 }
+
+ITEM_PIPELINES = {
+   'googlesearch.pipelines.GooglesearchPipeline': 300
+}

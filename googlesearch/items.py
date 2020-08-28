@@ -19,6 +19,9 @@ class GooglesearchItem(scrapy.Item):
     # 排名
     rank = scrapy.Field()
 
-    # 爬取时间
-    spiderTime = scrapy.Field()
+    # 创建时间
+    created_at = scrapy.Field()
+
+    # 更新时间
+    updated_at = scrapy.Field()
     pass
