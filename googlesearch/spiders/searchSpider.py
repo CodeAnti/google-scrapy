@@ -3,7 +3,7 @@ import scrapy
 from googlesearch.items import GooglesearchItem
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from urllib.parse import urlparse, parse_qs, parse_qsl
+from urllib.parse import urlparse, parse_qsl
 import datetime
 import pymysql
 
